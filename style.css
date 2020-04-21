@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	background-color: #5845A1;
+	background-image: url(img/Body_BgPoint_repeat.png);
+}
+
+nav{
+	width: 100%;
+	background-color: #F36518;
+
+}
+
+.content{
+	width: 1200px;
+	margin: auto;
+}
+
+nav > .content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	display: block;
+	width: 300px;
+	height: auto;
+}
+
+.menu a{
+	font-size: 18px;
+	color: #fff;
+	padding-left: 40px;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+
+header{
+	/*width: 1200px;
+	margin: auto;*/
+	background-image: url(img/KV_Bgimage-lg.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+}
+
+
+.title_KV img{
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+.title_gift{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title_gift img{
+	width: 20%;
+	height: auto;
+	/*margin-top: 50px;*/
+}
+
+.title_gift img:nth-child(even){
+	margin-top: 100px;
+}
+
+.title_gift img:nth-child(3){
+	margin-top: 200px;
+}
+
+.title_cloud{
+	width: 100%;
+}
+
+.title_cloud img{
+	position: absolute;
+	bottom: -120px;
+	left: 0;
+	width: 100%;
+}
+
+/*-----main----------------------*/
+
+
+.main_description{
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	color: #534741;
+}
+
+.description_title {
+	padding: 100px 0 50px 0;
+	
+}
+.description_title img{
+	display: block;
+	margin: auto;
+	width:30%;
+}
+
+.description_title h3{
+	font-size: 22px;
+}
+
+.description_star{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.description_star img{
+	width: 40%;
+	display: block;
+}
+
+.main_description p {
+	font-size: 14px;
+	padding: 20px 0;
+
+}
+
+.description_btn img{
+	display: block;
+	width: 30%;
+	margin: auto;
+}
+
+
+
+
+
