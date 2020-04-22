@@ -134,6 +134,22 @@ header{
 }
 
 
+.cloudrepeat img{
+	width: 100%;
+	margin: auto;
+}
+
+.mission{}
+.mission_title{
+	width: 100%;
+	background-image: url(img/Mission_BgimageTop-lg.png);
+	background-size: cover;
+}
+.mission_title img{
+	display: block;
+	width: 30%;
+	margin: auto;
+}
 
 
 
