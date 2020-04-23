@@ -1,9 +1,21 @@
+ @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
 *{
 	margin:0;
 	padding:0;
 	list-style:none;
 	box-sizing: border-box;
+	font-family: 'Noto Sans TC';
 }
+
+h2{
+	font-weight: 500;
+}
+h3,h4{
+	font-weight: 300;
+}
+
 body{
 	background-color: #5845A1;
 	background-image: url(img/Body_BgPoint_repeat.png);
@@ -38,6 +50,17 @@ nav > .content{
 	padding-left: 40px;
 	text-decoration: none;
 	letter-spacing: 2px;
+	line-height: 18px;
+
+
+}
+
+.menu a:hover{
+	color: #F36518;
+	padding: 6px 30px;
+	background-color: #fff;
+	border-radius: 20px;
+
 }
 
 
@@ -196,25 +219,81 @@ header{
 	width: 30%;
 }
 .box_area2 .item:nth-child(1){
-	margin-top: 200px;
-	margin-right: 250px;
+	margin-top: 100px;
 }
+.box_area2 .item:nth-child(2){
+	margin-top: 50px;
+}
+.box_area2 .item:nth-child(2){
+	margin-top: 50px;
+}
+
 .box_area3 > .item{
 	width: 35%;
-	margin-top: 150px;
 }
 
 .item_final{
 	background-image: url(img/Mission_Star_BgPurple-Normal.png);
 	background-size: 100%;
 	width: 40%;
-	margin-top: 200px;
-	margin-left: 70px;
+	margin-left: 5%;
 }
 
 .item_final:hover{
 	background-image: url(img/Mission_Star_BgPurple-Hover.png);
 }
 
+
+.notice{
+	width: 100%;
+}
+
+.notice img{
+	display: block;
+	width: 100%;
+}
+.notice_btn{
+	width: 33%;
+	margin: auto;
+}
+.notice_btn img{
+	display: block;
+	width: 100%;
+}
+
+
+footer{
+	background-color: #717171;
+	padding: 40px 0;
+}
+
+.slogan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #DEDEDE;
+	padding-bottom: 20px;
+	border-bottom:1px solid #DEDEDE;
+}
+
+.slogan h2{
+	font-size: 50px;
+	padding-right: 100px;
+}
+.slogan h4{
+	font-size: 20px;
+	letter-spacing: 1.2px;
+}
+.slogan span{
+	display: block;
+}
+
+.tel h3{
+	color: #FEDA00;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 1.2px;
+}
 
 
